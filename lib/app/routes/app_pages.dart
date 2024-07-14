@@ -15,7 +15,7 @@ import '../modules/dashboard/views/dashboard_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/login/bindings/login_binding.dart';
-import '../modules/login/views/login_view.dart';
+// import '../modules/login/views/login_view.dart';
 import '../modules/my_products/bindings/my_products_binding.dart';
 import '../modules/my_products/views/my_products_view.dart';
 import '../modules/product_details/bindings/product_details_binding.dart';
@@ -56,10 +56,10 @@ class AppPages {
       participatesInRootNavigator: true,
       preventDuplicates: true,
       children: [
-        Screen.LOGIN.getPage(
-          page: () => const LoginView(),
-          binding: LoginBinding(),
-        ),
+        // Screen.LOGIN.getPage(
+        //   page: () => const LoginView(),
+        //   binding: LoginBinding(),
+        // ),
         Screen.REGISTER.getPage(
           page: () => const RegisterView(),
           binding: RegisterBinding(),
